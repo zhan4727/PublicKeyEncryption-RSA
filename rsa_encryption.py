@@ -47,7 +47,7 @@ class RSAEncryption(Scene):
 			r"& \quad \quad n=pq\\",
 			r"& \text{2. Compute }\lambda(n)=\text{lcm}(p-1,q-1)\\",
 			r"& \text{3. Choose }e\text{ s.t. }1<e<\lambda(n),\ \gcd(e,\lambda(n))=1\\",
-			r"& \text{4. Find d by solving }de\equiv 1 \pmod{\lambda(n)}"
+			r"& \text{4. Find }d\text{ by solving }de\equiv 1 \pmod{\lambda(n)}"
 		)
 		self.play(Write(section))
 		self.wait(1)
