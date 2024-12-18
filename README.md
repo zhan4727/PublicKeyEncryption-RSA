@@ -28,6 +28,6 @@ I merged the code from the above four sections into a single file `full_encrypti
 ## How to Create the Video
 
 Steps:
-1. Install the Python Manim Package.
+1. Install the Python Manim Package on your local computer by running `pip install manim`. 
 2. Download `full_encryption_video.py` onto your local computer.
-3. Run `manim -pql full_encryption_video.py FullEncryptionVideo` in your terminal under the same directory as `full_encryption_video.py`.
+3. Run `manim -pql full_encryption_video.py FullEncryptionVideo` in your terminal under the parent directory of `full_encryption_video.py`.
