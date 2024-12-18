@@ -2,7 +2,7 @@
 
 ## Watch the full video by visiting https://www.youtube.com/watch?v=_IzZgqtvgEI
 
-![Video Cover](rsa_image.jpg)
+![Video Cover](video_cover.jpg)
 
 ## Parts of the Video
 ### Introduction
@@ -25,8 +25,9 @@ This is the conclusion of the video. Key concepts are summarized and the real wo
 
 I merged the code from the above four sections into a single file `full_encryption_video.py` so that the full animation can be created using this file alone.
 
-## How to create the Video
+## How to Create the Video
 
 Steps:
-1. Download `full_encryption_video.py` onto your local computer.
-2. Run `manim -pql full_encryption_video.py FullEncryptionVideo` in your terminal under the same directory as `full_encryption_video.py`.
+1. Install the Python Manim Package.
+2. Download `full_encryption_video.py` onto your local computer.
+3. Run `manim -pql full_encryption_video.py FullEncryptionVideo` in your terminal under the same directory as `full_encryption_video.py`.
